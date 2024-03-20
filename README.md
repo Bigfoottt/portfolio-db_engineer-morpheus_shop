@@ -1,9 +1,8 @@
 # portfolio-db_engineer-morpheus_shop
 
-Soal:
-Anda adalah seorang data engineer yang ditugaskan oleh sebuah perusahaan ritel untuk menganalisis data penjualan mereka. Perusahaan tersebut memiliki basis data yang mencatat informasi tentang penjualan produk mereka. Tugas Anda adalah menganalisis data ini untuk memberikan wawasan yang berharga kepada tim manajemen perusahaan.
+Ini adalah project dummy yang diperuntukan untuk kebutuhan portfolio sebagai seorang "DATABASE ENGINEER".
 
-Deskripsi Data:
+Deskripsi Data
 Tabel sales memiliki skema sebagai berikut:
 
 - order_id: ID unik untuk setiap pesanan.
@@ -13,13 +12,19 @@ Tabel sales memiliki skema sebagai berikut:
 - price: Harga produk per unit.
 - order_date: Tanggal pesanan dilakukan.
 
-Soal:
-1. Tuliskan sebuah kueri SQL untuk menampilkan 10 data pertama dari tabel sales.
+Tabel products memiliki skema sebagai berikut:
+- product_name: Nama produk yang ada di toko.
+- category: Kategori produk yang ada di toko.
 
-2. Hitung total penjualan (total harga) untuk setiap pesanan. Tampilkan hasilnya dalam sebuah tabel dengan kolom order_id dan total_sales.
+Task :
+Sebagai seorang data engineer di perusahaan ritel "Morpheus Shop", saya ditugaskan untuk menganalisis data penjualan mereka. Perusahaan tersebut memiliki basis data yang mencatat informasi tentang penjualan produk. Tugas saya adalah menganalisis data tersebut untuk memberikan insight yang berharga kepada tim manajemen perusahaan.
 
-3. Buatlah visualisasi grafik batang yang menampilkan total penjualan per bulan selama tahun 2023.
+1. Menampilkan 10 data pertama dari tabel sales.
 
-4. Identifikasi produk dengan penjualan terbanyak. Tuliskan kueri SQL untuk menampilkan nama produk dan jumlah total penjualan, lalu urutkan dari yang terbanyak.
+2. Menghitung total penjualan (total harga) untuk setiap pesanan. Serta menampilkan hasilnya dalam sebuah tabel dengan kolom order_id dan total_sales.
 
-5. Hitung total jumlah produk yang terjual untuk setiap kategori produk. Tampilkan hasilnya dalam sebuah tabel dengan kolom category dan total_quantity_sold.
+3. Membuat visualisasi grafik batang yang menampilkan total penjualan per bulan selama tahun 2023.
+
+4. Mengidentifikasi produk dengan penjualan terbanyak. Serta menampilkan nama produk dan jumlah total penjualan, lalu urutkan dari yang terbanyak.
+
+5. Menghitung total jumlah produk yang terjual untuk setiap kategori produk. Serta menampilkan hasilnya dalam sebuah tabel dengan kolom category dan total_quantity_sold.
